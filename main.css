@@ -19,10 +19,11 @@ header{
     background-size: cover;
     width: 100%;
     height: 100%;
+    position: relative;
 
 }
 .claim{
-    position: relative;
+    
     max-width: 1180px;
     height: 100%;
     margin: 0;
@@ -76,12 +77,12 @@ header{
 }
 .header-line{
     position: absolute;
-    bottom: -90px;
-    background-color: brown;    
+    bottom: -2rem;
+    background-color: #cc502b;    
     width: 100%;
     height: 100px;
-    opacity: 0.5;
-    transform: skewY(-3deg);
+    opacity: 0.9;
+    transform: skewY(-1deg);
     
 }
 @media (max-width: 766px){
